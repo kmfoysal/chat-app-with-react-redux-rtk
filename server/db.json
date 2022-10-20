@@ -17,6 +17,24 @@
       "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
       "name": "Saad Hasan",
       "id": 3
+    },
+    {
+      "email": "contact.kmfoysal@gmail.com",
+      "password": "$2a$10$H.NYRedYAeu/7m1USBf7zeGq8WO5W/nPIkMc76bB80TyaqW0862pm",
+      "name": "foysal",
+      "id": 4
+    },
+    {
+      "email": "jackwillson1717@gmail.com",
+      "password": "$2a$10$LSt/33wX0BahFCTRfOATuuiZP.MKyzn3CbxNSIhleXbdCA2FsKF7m",
+      "name": "imran",
+      "id": 5
+    },
+    {
+      "email": "ronibiswasup@gmail.com",
+      "password": "$2a$10$xIUPxYPJiwHm6PNb6jyKLOZEbevfVPn5T7Cqezv8zRoel0w9d.aLa",
+      "name": "Roni",
+      "id": 6
     }
   ],
   "conversations": [
