@@ -4,9 +4,9 @@ import useAuth from '../hooks/useAuth';
 
 const PrivateRoute = ({children}) => {
 
-    const isLogedIn = useAuth();
+    const isLoggedIn = useAuth();
 
-    return isLogedIn ? children : <Navigate to='/' />
+    return isLoggedIn ? children : <Navigate to="/" />;
 };
 
 export default PrivateRoute;

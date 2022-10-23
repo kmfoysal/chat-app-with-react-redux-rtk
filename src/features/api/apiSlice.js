@@ -10,7 +10,7 @@ export const apiSlice = createApi({
             const token = getState()?.auth?.accessToken ;
 
             if(token){
-                headers.set("Authorization", `Bearar ${token}`)
+                headers.set("Authorization", `Bearer ${token}`);
             }
 
             return headers ;
@@ -21,3 +21,11 @@ export const apiSlice = createApi({
 
     endpoints: (builder)=>({}),
 });
+
+// prepareHeaders: async (headers, { getState, endpoint }) => {
+//             const token = getState()?.auth?.accessToken;
+//             if (token) {
+//                 headers.set("Authorization", `Bearer ${token}`);
+//             }
+
+//             return headers;
