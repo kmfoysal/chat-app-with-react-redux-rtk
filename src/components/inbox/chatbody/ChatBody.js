@@ -25,11 +25,9 @@ const ChatBody = () => {
   } else if (!isLoading && !isError && messages.length > 0) {
     content = (
       <>
-        <ChatHead
-          message={messages[0]}
-        />
+        <ChatHead message={messages[0]} />
         <Messages messages={messages} />
-        <Options />
+        <Options info={messages[0]} />
       </>
     );
   }
